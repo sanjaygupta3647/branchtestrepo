@@ -2,7 +2,9 @@
  
  
 $name =  explode(".","testpng");
-echo $name = (count($name)) ? $name[0]:$name; die;
+$name = (count($name)) ? $name[0]:$name; 
+
+echo "<pre>"; print_r($name);
 
 
 
