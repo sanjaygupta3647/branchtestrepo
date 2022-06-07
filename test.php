@@ -1,11 +1,6 @@
-<?php
- 
- 
-$name =  explode(".","testpng");
-echo $name = (count($name)) ? $name[0]:$name; die;
+<?php 
 
-
-
+// Code commit By Sanjay Gupta
 
 $md5sum = md5_file("https://assets.reapit.net/bar/live/pictures/BEA/21/BEA210151_04.jpg");
 echo $md5sum; die;
