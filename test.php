@@ -1,10 +1,6 @@
 <?php
-$a = '1';
-$b = &$a;
-$b = "2$b";
-echo $a.", ".$b;
-
-die;
+ 
+ 
 $name =  explode(".","testpng");
 echo $name = (count($name)) ? $name[0]:$name; die;
 
