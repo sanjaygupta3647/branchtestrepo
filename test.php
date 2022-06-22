@@ -5,6 +5,8 @@ $name =  explode(".","testpng");
 // ztestt
 echo $name = (count($name)) ? $name[0]:$name; die;
 
+echo "<pre>"; print_r($name);
+
 
 
 
