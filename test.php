@@ -1,13 +1,15 @@
+ 
 <?php
  
  
 $name =  explode(".","testpng");
-$name = (count($name)) ? $name[0]:$name; 
+// ztestt
+echo $name = (count($name)) ? $name[0]:$name; die;
 
 echo "<pre>"; print_r($name);
 
-
-
+ 
+// again test 
 
 $md5sum = md5_file("https://assets.reapit.net/bar/live/pictures/BEA/21/BEA210151_04.jpg");
 echo $md5sum; die;
