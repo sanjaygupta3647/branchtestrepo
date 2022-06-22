@@ -4,6 +4,7 @@
  
 $name =  explode(".","testpng");
 // ztestt
+// Commit2
 echo $name = (count($name)) ? $name[0]:$name; die;
 
 echo "<pre>"; print_r($name);
