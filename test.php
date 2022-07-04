@@ -1,1 +1,3 @@
  Hi There...
+ 
+ <br/><?php echo time(); ?>
