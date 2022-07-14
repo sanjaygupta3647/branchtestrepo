@@ -1,1 +1,3 @@
-<?php phpinfo(); ?>
+HI There,
+
+Its a test
